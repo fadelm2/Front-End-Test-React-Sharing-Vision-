@@ -80,6 +80,7 @@ function App() {
     fetchArticleDetail(article.id);
   };
 
+  console.log()
   const handleAddArticle = async () => {
     try {
       await axios.post(`${API}/articles`, formData);
